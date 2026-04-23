@@ -1,16 +1,61 @@
-# React + Vite
+# Portafolio Web | Jhon Fredy Hidalgo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portafolio personal desarrollado con **React + Vite**, enfocado en mostrar mis proyectos, experiencia, stack tecnológico y canales de contacto en una interfaz moderna, responsive y bilingüe.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Puedes agregar aquí tu enlace en producción cuando lo publiques:
 
-## React Compiler
+- Demo: `https://tu-demo.com`
+- LinkedIn: `https://www.linkedin.com/in/jhonf-hidalgo-566274334/`
+- GitHub: `https://github.com/JhonFredyH`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Vista General
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Este proyecto fue construido como un portafolio profesional con enfoque en:
+
+- Diseño moderno y visualmente atractivo
+- Responsive design con enfoque **Mobile First**
+- Soporte bilingüe **ES / EN**
+- Secciones claras para presentación, proyectos, about y contacto
+- Navegación fluida entre secciones
+- Animaciones de entrada suaves
+- Base SEO optimizada para mejorar visibilidad
+
+---
+
+## Características
+
+- `Hero section` con presentación principal y stack tecnológico
+- Sección de proyectos con cards visuales
+- Sección "Sobre mí" con narrativa profesional y estadísticas
+- Sección de contacto con enlaces directos y formulario
+- Navbar responsive con estado activo según la sección visible
+- Toggle de idioma `ES / EN`
+- Cursor personalizado en escritorio
+- Metadatos SEO básicos y Open Graph
+- Animaciones de entrada reutilizables con `IntersectionObserver`
+
+---
+
+## Tecnologías Utilizadas
+
+- **React 19**
+- **Vite**
+- **CSS3**
+- **React Icons**
+- **PostCSS**
+- **ESLint**
+
+---
+
+## Instalación y uso
+
+Clona el repositorio e instala las dependencias:
+
+```bash
+git clone https://github.com/tu-usuario/tu-repo.git
+cd portafolio
+npm install
