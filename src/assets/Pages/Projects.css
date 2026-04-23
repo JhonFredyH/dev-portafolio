@@ -1,0 +1,23 @@
+.projects {
+  padding: var(--space-xl) var(--section-pad-inline);
+  position: relative;
+  z-index: 1;
+}
+
+.projects .page-section {
+  width: min(100%, var(--container-max));
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  align-items: stretch;
+}
+
+@media (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+  }
+}
