@@ -10,7 +10,9 @@ const Hero = ({ lang = "ES" }) => {
       <div className="hero-blob blob2"></div>
 
       <div className="hero-content">
-        <div className="hero-badge">{c.badge}</div>
+        <div className="hero-badge">
+          <span className="hero-badge-text">{c.badge}</span>
+        </div>
         <h1>{c.title}</h1>
         <span className="hero-subtitle">{c.subtitle}</span>
         <p className="hero-text">{c.text}</p>
