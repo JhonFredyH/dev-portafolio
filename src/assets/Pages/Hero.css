@@ -206,11 +206,11 @@
   }
 
   .hero-badge {
-    font-size: 1rem;
+    font-size: 0.6rem;
     width: auto;
     min-width: min(100%, 22rem);
     padding: 0.65rem 1rem;
-    border-radius: 999px;
+    border-radius: 30px;
     align-items: center;
   }
 
@@ -241,6 +241,7 @@
 
   .hero-badge {
     margin-bottom: 2rem;
+    font-size: 1.2rem;
   }
 
   .hero-subtitle {

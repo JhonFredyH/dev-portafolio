@@ -14,7 +14,7 @@ const socialLinks = [
 const Footer = ({ lang = "ES" }) => {
   return (
     <footer className="footer">
-      <div className="footer-inner reveal">
+      <div className="footer-inner">
         <div className="footer-logo">
           dev<span>.</span>portfolio
         </div>
