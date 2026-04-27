@@ -29,6 +29,12 @@ const ProjectCard = ({ project, index }) => {
         <div className="project-number">{project.number}</div>
         <div className="project-name">{project.name[lang]}</div>
         <div className="project-desc">{project.desc[lang]}</div>
+        
+        <div className="project-features">
+          {project.features.map((f, i) => (
+            <span key={i}>✔ {f[lang]}</span>
+          ))}
+        </div>
 
         <div className="project-links">
           {project.links.map((link, i) => {

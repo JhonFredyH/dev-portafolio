@@ -2,6 +2,7 @@
   padding: var(--space-xl) var(--section-pad-inline);
   position: relative;
   z-index: 1;
+ 
 }
 
 .projects .page-section {
