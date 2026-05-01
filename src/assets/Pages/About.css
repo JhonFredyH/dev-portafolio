@@ -32,10 +32,18 @@
 }
 
 .about-heading {
-  display: flex;
-  flex-direction: column;
+  display: flex;  
   align-items: flex-start;
   gap: var(--space-xs);
+  flex-wrap: wrap; 
+}
+
+.about-heading  .section-label{
+  font-family: var(--font-mono);
+  font-size: clamp(0.92rem, 4vw, 1.05rem);
+  color: var(--accent);
+  letter-spacing: 0.05em;
+  margin-top:1.5rem;
 }
 
 .about-title {

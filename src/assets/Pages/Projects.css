@@ -1,12 +1,11 @@
-.projects {
-  padding: var(--space-xl) var(--section-pad-inline);
+.projects {  
   position: relative;
   z-index: 1;
  
 }
 
 .projects .page-section {
-  width: min(100%, var(--container-max));
+  width: min(100%, var(--container-max));  
 }
 
 .projects-grid {
@@ -14,8 +13,12 @@
   grid-template-columns: 1fr;
   gap: 1rem;
   align-items: stretch;
+  margin-top: -2rem;
 }
 
+.section-header .section-label {
+  font-size: 1.0rem;
+}
 @media (min-width: 768px) {
   .projects-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
