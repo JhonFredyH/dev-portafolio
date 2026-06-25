@@ -19,7 +19,7 @@ export const projects = [
   {
     id: 1,
     visual: "p-visual-1",
-    preview: "../../public/portadaHotel.jpg",
+    preview: "/portadaHotel.jpg",
     number: "— 01 —",
     live: true,
     name: {
@@ -81,7 +81,7 @@ export const projects = [
   {
     id: 2,
     visual: "p-visual-2",
-    icon: "../../public/hotel.png",
+    icon: "/hotel.png",
     number: "— 02 —",
     live: false,
     name: {
@@ -134,7 +134,7 @@ export const projects = [
   {
     id: 3,
     visual: "p-visual-3",
-    icon: "../../public/hotel.png",
+    icon: "/hotel.png",
     number: "— 03 —",
     live: false,
     name: {
@@ -186,7 +186,7 @@ export const projects = [
   {
   id: 4,
   visual: "p-visual-4",
-  icon: "../../public/ChatPhoto.png",
+  icon: "/ChatPhoto.png",
   number: "— 04 —",
   live: true,
   name: {
