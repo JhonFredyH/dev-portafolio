@@ -17,6 +17,7 @@ const ProjectCard = ({ project, index }) => {
               src={project.preview}
               alt="project preview"
               className="project-preview-img"
+              style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
             <div className="project-hero-overlay" />
           </>
@@ -27,6 +28,7 @@ const ProjectCard = ({ project, index }) => {
                 src={project.icon}
                 alt="project icon"
                 className="project-icon-img"
+                style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
             ) : (
               <project.icon />

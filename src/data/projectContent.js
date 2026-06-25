@@ -7,6 +7,8 @@ import {
   FaPython,
 } from "react-icons/fa";
 import { SiPostgresql, SiFastapi } from "react-icons/si";
+import { SiSocketdotio } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
 
 export const projectsContent = {
   ES: { label: "01 / Proyectos", title: "Diseños que funcionan" },
@@ -181,4 +183,55 @@ export const projects = [
       { icon: FaBook, label: { ES: "API", EN: "API" }, url: "#" },
     ],
   },
+  {
+  id: 4,
+  visual: "p-visual-4",
+  icon: "../../public/ChatPhoto.png",
+  number: "— 04 —",
+  live: true,
+  name: {
+    ES: "NexusFlow — Mensajería Empresarial en Tiempo Real",
+    EN: "NexusFlow — Real-Time Enterprise Messaging",
+  },
+  desc: {
+    ES: "Aplicación de chat full-stack con WebSockets bidireccionales, canales públicos, DMs privados y sincronización de presencia online en tiempo real.",
+    EN: "Full-stack chat app with bidirectional WebSockets, public channels, private DMs and real-time online presence sync.",
+  },
+  tags: [
+    { icon: FaReact, label: "React" },
+    { icon: FaNodeJs, label: "Node.js" },
+    { icon: SiSocketdotio, label: "Socket.io" },
+    { icon: SiPostgresql, label: "PostgreSQL" },
+  ],
+  features: [
+    {
+      ES: "Mensajería en tiempo real",
+      EN: "Real-time messaging",
+      dotColor: "dot-green",
+    },
+    {
+      ES: "Canales y DMs privados",
+      EN: "Channels & private DMs",
+      dotColor: "dot-green",
+    },
+    {
+      ES: "JWT auth + httpOnly cookies",
+      EN: "JWT auth + httpOnly cookies",
+      dotColor: "dot-pink",
+    },
+    {
+      ES: "Typing indicator & badges",
+      EN: "Typing indicator & badges",
+      dotColor: "dot-blue",
+    },
+  ],
+  links: [
+    { icon: FaGithub, label: { ES: "GitHub", EN: "GitHub" }, url: "https://github.com/JhonFredyH/ChatApp" },
+    {
+      icon: FaExternalLinkAlt,
+      label: { ES: "Demo", EN: "Live Demo" },
+      url: "https://chat-app-sigma-six-76.vercel.app",
+    },
+  ],
+},
 ];
